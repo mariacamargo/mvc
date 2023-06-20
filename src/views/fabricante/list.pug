@@ -1,0 +1,9 @@
+html 
+    head   
+        title Listagem de Fabricante 
+    body
+        h1 Listagem de Fabricante
+        a(href='Fabricante/form') Formulario de Fabricante
+        ul
+        each Fabricante in FabricanteList
+            li=Fabricante.name

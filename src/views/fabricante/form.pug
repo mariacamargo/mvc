@@ -1,0 +1,11 @@
+html 
+    head 
+        title Formulário de Fabricante 
+    body 
+        h1 Formulário de Fabricante
+        a(href='/Fabricante') Listagem de Fabricante
+        form(action='/Fabricante/create',method='post')
+            label Nome do Fabricante 
+                input(name='name',required,type='text')
+            button(type='submit') Salvar
+            
